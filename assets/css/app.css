@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0,0,256, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+}
+
+header {
+    flex: 0 1 auto;
+}
+
+footer {
+    flex: 0 1 100px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #f4f4f4;
+}
+
+.content {
+    flex: 1 1 auto;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+.card {
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar-toggler {
+    margin-right: auto;
+}
+
+.item-image img {
+    height: 80px;
+}
+
+.button-controls {
+    border-bottom: 1px solid lightgrey;
+}
+
+.counter-buttons {
+    font-size: 2rem;
+}
+
+.counter-button {
+    color: blue;
+}
+
+@media screen and (min-width: 769px) {
+    body {
+		width: 302px;
+        margin: 0 auto;
+        background-image: url('../imgs/cellphone_grey.png');
+        background-repeat: no-repeat;
+		background-size: 397px 100%;
+        padding: 65px 26px;
+        height: 96%;
+        background-position: center;
+        padding-left: 0px;
+        padding-right: 28px;
+    }
+}
